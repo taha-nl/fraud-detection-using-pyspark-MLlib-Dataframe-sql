@@ -4,5 +4,16 @@ Financial fraud detection is a challenge that must be taken seriously. Although 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## dataset Description
+* Features V1, V2, … V28 are the principal components obtained with PCA transformation.
+* The only features which have not been transformed are ‘Time’ and ‘Amount’.
+* ‘Time’ is the seconds elapsed between each transaction and the first. 
+* ‘Amount’ is the transaction amount.
+* ‘Class’ is the response variable with 1 as fraud and 0 otherwise.
+
+## prerequisities
+* Python 3.*
+* flask
+* Pandas
+* Pyspark
 
 
